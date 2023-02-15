@@ -1,0 +1,128 @@
+
+
+
+.crypto-row{ 
+display: flex;    
+border: 1px solid black ;
+flex-direction: row;
+justify-content: space-between;
+}
+
+.crypto-row + .crypto-row{
+    border-top: 0px;
+}
+
+.cr-rank{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 2;
+    color: darkorange;
+    background-color: teal;
+    padding-left: 1rem;
+    }
+
+.cr-name{
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    color: darkorange;
+    background-color: teal;
+    text-align: middle;
+    justify-content: center;
+    padding-right: 2px;
+    }
+
+.row-img{
+    vertical-align: middle;
+    flex: 1;
+    color: darkorange;
+    background-color: teal;
+    width: 1rem;
+    justify-content: center;
+    align-items: center;
+    padding-right: 40px;
+
+}
+
+.row-img-head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    color: darkorange;
+    background-color: teal;
+}
+
+ .cr-price{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 3;
+    color: darkorange;
+    background-color: teal;
+        }
+        
+.cr-1hour{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 2;
+    color: darkorange;
+    background-color: teal;
+    }
+
+.cr-24hour{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 2;
+    color: darkorange;
+    background-color: teal;
+     }
+
+.cr-7day{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 2;
+    color: darkorange;
+    background-color: teal;
+}
+
+
+
+.cr-24volume{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 3;
+    color: darkorange;
+    background-color: teal;
+   }
+
+
+
+
+.cr-market{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 3;
+    color: darkorange;
+    background-color: teal;
+     }
+
+@media screen and (max-width: 1024px){
+         .cr-24volume{
+             display: none;
+         }
+       }
+
+@media screen and (max-width: 1120px){
+    .cr-market{
+        display: none;
+    }
+}
+
+                    

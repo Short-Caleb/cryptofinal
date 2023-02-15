@@ -1,0 +1,66 @@
+.cv-main{
+    width: 100%;
+    border: 1px solid black;
+    background-color: teal;
+    color: darkorange;
+    display: flex;
+    border: darkorange 5px solid;
+    justify-content: space-around;
+    
+}
+
+.cv-main div{
+    margin: 1px;
+    ;
+}
+
+.cv-left{
+    display: column;
+    font-weight: bolder;
+    padding-left: 1rem;
+}
+
+.cv-right-top{
+  display: column;
+}
+
+.cv-names{
+  font-size: larger;
+  font-weight: bolder;
+  text-align: center;
+
+}
+
+.cv-img{
+  vertical-align: middle;
+  flex: 1;
+  color: darkorange;
+  background-color: teal;
+  width: 4rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+.cv-price{
+  font-size: larger;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.cv-changes{
+  display: flex;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  
+}
+.cv-little-changes{
+    display: column;
+    text-align: center;
+}
+
+.cv-right-bottom{
+  display: column;
+  padding-right: 2rem;
+}

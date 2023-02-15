@@ -1,0 +1,8 @@
+.navbar{height:'80px'; 
+    color: white; 
+    background-color: black}
+
+.navbar h1{
+    margin: 0;
+    padding: 1rem;
+}
